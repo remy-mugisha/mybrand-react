@@ -4,6 +4,7 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoMdCode } from 'react-icons/io';
 import { MdDns } from 'react-icons/md';
 import { GrLanguage } from 'react-icons/gr';
+import {MdDevices } from 'react-icons/md'
 import { MdIntegrationInstructions } from 'react-icons/md';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -24,9 +25,14 @@ function myFunction (){
     <>
     <nav>
     <div className="container">
-        <div className="logo">
+    <NavLink to="/">
+             <div className="logo">
+             <a href="index.html">R</a>
+             </div>
+             </NavLink>
+        {/* <div className="logo">
             <a href="index.html">R</a>
-        </div>
+        </div> */}
        <ul id="nnav">
             <li><a href="#index.html" className="active">Home</a></li>
         {/* <NavLink to="/"><li><a className="active">Home</a></li></NavLink> */}
@@ -86,13 +92,13 @@ function myFunction (){
             
         </div>
         <div className="service">
-            <span className="material-icons-sharp">language</span>
+            <span className="material-icons-sharp"><GrLanguage/></span>
             <h3>website & web app development</h3>
             <p>services help design, build, and evolve web-based software & web projects</p>
             
         </div>
         <div className="service">
-            <span className="material-icons-sharp">devices</span>
+            <span className="material-icons-sharp"><MdDevices/></span>
             <h3>mobile development</h3>
             <p>services help to creating software applications that run on a mobile device, </p>
             

@@ -11,12 +11,33 @@ function signuppage() {
     <div>
       <nav>
         <div className="container">
-          <div className="logo">
-            <a href="index.html">R</a>
-          </div>
+             <NavLink to="/">
+             <div className="logo">
+             <a href="index.html">R</a>
+             </div>
+             </NavLink>
+            {/* <a href="index.html">R</a> */}
+          
 
           <ul id="nnav">
-            <li>
+          <NavLink to="/">
+            <li><a className="active">Home</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Services</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">About us</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Skills</a></li>
+                </NavLink><NavLink to="/">
+                <li><a href="#services">Blog</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Contact</a></li>
+                </NavLink>
+            {/* <li>
               <a href="index.html" className="active">
                 Home
               </a>
@@ -35,7 +56,7 @@ function signuppage() {
             </li>
             <li>
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
             <NavLink to="/loginpage">
               <li>
                 <a className="login">Login</a>

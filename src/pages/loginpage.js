@@ -11,20 +11,38 @@ function loginpage(){
         <>
         <nav>
         <div className="container">
-            <div className="logo">
+        <NavLink to="/">
+             <div className="logo">
+             <a href="index.html">R</a>
+             </div>
+             </NavLink>
+            {/* <div className="logo">
                 <a href="index.html">R</a>
-            </div>
+            </div> */}
            
            <ul id="nnav">
-           <li><a href="#index.html" class="active">Home</a></li>
-            {/* <NavLink to="/">
+           {/* <li><a href="#index.html" class="active">Home</a></li> */}
+            <NavLink to="/">
             <li><a className="active">Home</a></li>
-                </NavLink> */}
-               <li><a href="#services">Services</a></li>
-               <li><a href="#about">About us</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Services</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">About us</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Skills</a></li>
+                </NavLink><NavLink to="/">
+                <li><a href="#services">Blog</a></li>
+                </NavLink>
+                <NavLink to="/">
+                <li><a href="#services">Contact</a></li>
+                </NavLink>
+               {/* <li><a href="#about">About us</a></li>
                <li><a href="#skills">Skills</a></li>
                <li><a href="#blog">Blog</a></li>
-               <li><a href="#contact">Contact</a></li>
+               <li><a href="#contact">Contact</a></li> */}
             <NavLink
             to="/loginpage"
           >
