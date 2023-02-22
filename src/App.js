@@ -28,7 +28,8 @@ function myFunction (){
             <a href="index.html">R</a>
         </div>
        <ul id="nnav">
-        <NavLink to="/"><li><a className="active">Home</a></li></NavLink>
+            <li><a href="#index.html" className="active">Home</a></li>
+        {/* <NavLink to="/"><li><a className="active">Home</a></li></NavLink> */}
            <li><a href="#services">Services</a></li>
            <li><a href="#about">About us</a></li>
            <li><a href="#skills">Skills</a></li>
@@ -197,32 +198,30 @@ function myFunction (){
     </div>
 </section>
 
-
-
-<section classNameName="contact" id="contact">
-    <div className="overlay">
-        <div id="form" className="container">
-            <h1>Contact Me</h1>
-            <p>if you have anything to talk or aske for something you need such as to create your site, please type here</p>
-           <form className="form-btn" >
-            <label for="name"></label>
-               <input type="text" id="fullName" placeholder="Name" required />
-            
-            <label for="email"></label>
-               <input type="email" id="email" placeholder="Email" required />
-           
-            <label for="subject"></label>
-               <input type="text" id="subject" placeholder="Subject" required />
-            
-            <label for="message"></label>
-               <textarea id="message" placeholder="Message" required></textarea>
-            
-               <input type="submit" value="Submit" id="SubmitContact" className="btn btn-primary" />
-           </form>
+<section className="contact" id="contact">
+        <div className="overlay">
+            <div id="form" className="container">
+                <h1>Contact Me</h1>
+                <p>if you have anything to talk or aske for something you need such as to create your site, please type here</p>
+               <form className="form-btn" >
+                <label for="name"></label>
+                   <input type="text" id="fullName" placeholder="Name" required/>
+                
+                <label for="email"></label>
+                   <input type="email" id="email" placeholder="Email" required/>
+               
+                <label for="subject"></label>
+                   <input type="text" id="subject" placeholder="Subject" required/>
+                
+                <label for="message"></label>
+                   <textarea id="message" placeholder="Message" required></textarea>
+                
+                   <input type="submit" value="Submit" id="SubmitContact" className="btn btn-primary"/>
+               </form>
+            </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
 <footer>
       <div className="copyright">

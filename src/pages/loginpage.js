@@ -16,9 +16,10 @@ function loginpage(){
             </div>
            
            <ul id="nnav">
-            <NavLink to="/">
+           <li><a href="#index.html" class="active">Home</a></li>
+            {/* <NavLink to="/">
             <li><a className="active">Home</a></li>
-                </NavLink>
+                </NavLink> */}
                <li><a href="#services">Services</a></li>
                <li><a href="#about">About us</a></li>
                <li><a href="#skills">Skills</a></li>
@@ -55,9 +56,10 @@ function loginpage(){
             Forgot <a href="#" style={{
                 color: "rgb(15, 117, 34)",
             }}> password? </a> <br /><br />
+            if you don't have an account
             <NavLink to="/signuppage">
             <a style={{
-                color: "rgb(15, 117, 34);",
+                color: "rgb(15, 117, 34)",
              }}> Sign up </a> 
             </NavLink>
         </div> 
