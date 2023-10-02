@@ -24,18 +24,18 @@ function signuppage() {
             <li><a className="active">Home</a></li>
                 </NavLink>
                 <NavLink to="/">
-                <li><a href="#services">Services</a></li>
+                <li><a>Services</a></li>
                 </NavLink>
                 <NavLink to="/">
-                <li><a href="#services">About us</a></li>
+                <li><a>About us</a></li>
                 </NavLink>
                 <NavLink to="/">
-                <li><a href="#services">Skills</a></li>
+                <li><a>Skills</a></li>
                 </NavLink><NavLink to="/">
-                <li><a href="#services">Blog</a></li>
+                <li><a>Blog</a></li>
                 </NavLink>
                 <NavLink to="/">
-                <li><a href="#services">Contact</a></li>
+                <li><a>Contact</a></li>
                 </NavLink>
             {/* <li>
               <a href="index.html" className="active">

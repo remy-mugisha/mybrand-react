@@ -247,7 +247,7 @@ function myFunction (){
                <a href="https://instagram.com/" target="_blank"><AiFillInstagram/></a>
                <a href="https://github.com/" target="_blank"><AiFillGithub/></a>
                 </div>
-      </div>  
+      </div>
 </footer>
       </>
 
